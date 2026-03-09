@@ -17,7 +17,14 @@
 
 ```mermaid
 classDiagram
-    Singleton <|-- Singleton
+    class Singleton {
+        -instance: Singleton
+        -Singleton()
+        +getInstance(): Singleton
+        +businessMethod()
+    }
+    
+    note for Singleton "确保一个类只有一个实例\n并提供一个全局访问点"
 ```
 
 ## 角色

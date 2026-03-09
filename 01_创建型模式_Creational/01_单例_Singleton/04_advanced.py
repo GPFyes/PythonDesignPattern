@@ -5,7 +5,7 @@
 """
 
 import threading
-import pickle
+import pickle  #内置的序列化模块
 import json
 
 
