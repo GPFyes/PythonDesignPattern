@@ -1,8 +1,5 @@
 # Python 设计模式学习
 
-**GoF**（Gang of Four，四人帮）是指 Erich Gamma、Richard Helm、Ralph Johnson 和 John Vlissides 四位软件工程专家。他们于1994年出版了《Design Patterns: Elements of Reusable Object-Oriented Software》一书，首次系统性地总结了23种面向对象设计模式。
-
----
 
 ## 快速导航
 
@@ -12,6 +9,11 @@
 | 结构型 | ⭐⭐⭐ | 1-2-3-4-5-6-7 |
 | 行为型 | ⭐⭐⭐⭐ | 1-2-3-4-5-6-7-8-9-10-11 |
 
+需要知道的基础：
+- [设计模式背景](#设计模式背景)
+- [设计模式核心思想](#设计模式核心思想)
+- [设计模式原则（SOLID）](#设计模式原则solid)
+- [接口与设计模式](#接口与设计模式的关系)
 
 
 ## 目录
@@ -50,6 +52,10 @@
 21. [21_访问者_Visitor](./03_行为型模式_Behavioral/21_访问者_Visitor/README.md) - 操作分离
 22. [22_中介者_Mediator](./03_行为型模式_Behavioral/22_中介者_Mediator/README.md) - 集中交互
 23. [23_解释器_Interpreter](./03_行为型模式_Behavioral/23_解释器_Interpreter/README.md) - 语言解析
+
+---
+## 设计模式背景
+**GoF**（Gang of Four，四人帮）是指 Erich Gamma、Richard Helm、Ralph Johnson 和 John Vlissides 四位软件工程专家。他们于1994年出版了《Design Patterns: Elements of Reusable Object-Oriented Software》一书，首次系统性地总结了23种面向对象设计模式。
 
 ---
 
@@ -211,7 +217,7 @@
 
 ---
 
-## 接口与设计模式的关系
+## 接口与设计模式
 
 ### 接口在设计模式中的作用
 
